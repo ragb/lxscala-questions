@@ -57,7 +57,7 @@ trait Decoder {
     type T
 }
 
-def decodeList(d: Decoder, List[String]): List[d.T] = ???
+def decodeList(d: Decoder, l: List[String]): List[d.T] = ???
 ```
 
 - [ ] Type Member
@@ -69,7 +69,6 @@ def decodeList(d: Decoder, List[String]): List[d.T] = ???
 
 What is true regarding the following code? (3)
 
-```scala
 
 ```scala
 trait encoder[-T] {

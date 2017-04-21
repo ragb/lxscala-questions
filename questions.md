@@ -7,7 +7,6 @@
 
 ## Questions ##
 
-
 What is the well known code patern present in the following definitions? (3))
 
 ```scala
@@ -37,9 +36,7 @@ val a = if(x > 2) 1
 - [ ] NaN
 - [ ] 0
 
-
 ---
-
 
 What is *not* a known Scala functional programming library? (3)
 
@@ -65,9 +62,7 @@ def decodeList(d: Decoder, l: List[String]): List[d.T] = ???
 
 ---
 
-
 What is true regarding the following definition? (3)
-
 
 ```scala
 trait encoder[-T] {
@@ -79,9 +74,7 @@ trait encoder[-T] {
 - [ ] `Encoder[Int]` is a subtype of `Ecoder[Anyval]`
 - [ ] `Encoder[String]` is a subtype of `Encoder[Any]`
 
-
 ---
-
 
 What is the return type of the standard library's `???`method?
 
@@ -90,7 +83,6 @@ What is the return type of the standard library's `???`method?
 - [x] Nothing
 
 ---
-
 
 What is the main goal of the Shapeless library? (3)
 
@@ -110,7 +102,6 @@ What is the type of the following value? (1)
 - [ ] `Stack[Int]`
 - [x] `List[Int]`
 
-
 ---
 
 What is `T`, in the following definition? (2)
@@ -125,3 +116,14 @@ trait Operations {
 - [x] A type member
 - [ ] An abstract type
 
+---
+
+What will be printed after executing the following code? (1)
+
+```scala
+println(Try(new Exception()))
+```
+
+- [ ] Failure(java.lang.Exception)
+- [ ] Try(java.lang.Exception)
+- [x] Success(java.lang.Exception)

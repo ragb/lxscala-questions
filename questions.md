@@ -8,7 +8,7 @@
 ## Questions ##
 
 
-What is the well known code patern present in the following Scala code? (3)
+What is the well known code patern present in the following definitions? (3))
 
 ```scala
 trait Encoder[-T] {
@@ -26,8 +26,7 @@ object Encoder {
 
 ---
 
-What will be the value of `a` in the following code? (2)
-a`variable in the following code? (2)
+What will be the value of `a` after executing the following code? (2)
 
 ```scala
 val x = 2
@@ -67,7 +66,7 @@ def decodeList(d: Decoder, l: List[String]): List[d.T] = ???
 ---
 
 
-What is true regarding the following code? (3)
+What is true regarding the following definition? (3)
 
 
 ```scala
@@ -114,7 +113,7 @@ What is the type of the following value? (1)
 
 ---
 
-What is `T, in the following definition? (2)
+What is `T`, in the following definition? (2)
 
 ```scala
 trait Operations {
@@ -122,7 +121,7 @@ trait Operations {
 }
 ```
 
-- [ ] Existential type
-- [x] Type member
-- [ ] Abstract type
+- [ ] An existential type
+- [x] A type member
+- [ ] An abstract type
 

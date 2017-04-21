@@ -42,11 +42,11 @@ val a = if(x > 2) 1
 ---
 
 
-What is *not* a known Scala functional programming library? (1)
+What is *not* a known Scala functional programming library? (3)
 
 - [ ] Cats
 - [ ] Dogs
-- [x] Fishes
+- [x] Rabbits
 
 ---
 
@@ -89,3 +89,40 @@ What is the return type of the standard library's `???`method?
 - [ ] Any
 - [ ] Unit
 - [x] Nothing
+
+---
+
+
+What is the main goal of the Shapeless library? (3)
+
+- [ ] Json encoding / decoding
+- [x] Generic Programming
+- [ ] Application configuration
+
+---
+
+What is the type of the following value? (1)
+
+```scala
+1 :: 2 :: 3 :: Nil
+```
+
+- [ ] `LinkedList[Int]`
+- [ ] `Stack[Int]`
+- [x] `List[Int]`
+
+
+---
+
+What is `T, in the following definition? (2)
+
+```scala
+trait Operations {
+    type T
+}
+```
+
+- [ ] Existential type
+- [x] Type member
+- [ ] Abstract type
+
